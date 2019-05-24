@@ -1,4 +1,4 @@
-FROM node:jessie
+FROM node:stretch
 
 ARG botname
 ENV botname ${botname}
